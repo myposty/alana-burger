@@ -34,6 +34,10 @@ p, a {
   font-family: sfproregular;
 }
 
+img {
+  pointer-events: none;
+}
+
 @font-face {
   font-family: sfproheavy;
   src: url(../fonts/sfpro/SFProDisplay-Heavy-1.ttf);
@@ -114,5 +118,10 @@ p, a {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
+}
+
+.desktop .brand .brand-logo {
+  width: 150px;
+  height: 150px;
 }
 /*# sourceMappingURL=Main.css.map */

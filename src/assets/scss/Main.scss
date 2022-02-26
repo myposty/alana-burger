@@ -48,6 +48,15 @@ $bg:(
       transform: rotate(360deg);
     }
   }
+
+  .desktop{
+    .brand{
+      .brand-logo{
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
   
 
   //sm	640px	

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route,Link} from "react-router-dom";
 import App from '../App';
 import About from '../routes/About';
+import BrandLogo from '../assets/img/mr-burger.png';
 function Header() {
     return (
         <header>
@@ -9,6 +10,9 @@ function Header() {
         <div className='header-container'>
           {/* menu escritorio */}
           <div className='desktop'>
+            <div className='brand'>
+            <img src={BrandLogo} className="brand-logo" alt="brand logo" />
+            </div>
           <nav>
         <Link to="/">Inicio</Link>
         <Link to="about">Acerca de</Link>
