@@ -6,10 +6,17 @@ function Header() {
     return (
         <header>
       <BrowserRouter>
-        <nav>
+        <div className='header-container'>
+          {/* menu escritorio */}
+          <div className='desktop'>
+          <nav>
         <Link to="/">Inicio</Link>
         <Link to="about">Acerca de</Link>
         </nav>
+          </div>
+          {/* menu mobil */}
+          <div className='mobile'></div>
+        </div>
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="about" element={<About />} />
