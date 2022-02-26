@@ -1,3 +1,13 @@
+@font-face {
+  font-family: sfproheavy;
+  src: url(../fonts/sfpro/SFProDisplay-Heavy-1.ttf);
+}
+
+@font-face {
+  font-family: sfproregular;
+  src: url(../fonts/sfpro/SFProDisplay-Regular.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,6 +23,35 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sfproheavy;
+  font-weight: 800;
+}
+
+p, a {
+  font-family: sfproregular;
+}
+
+@font-face {
+  font-family: sfproheavy;
+  src: url(../fonts/sfpro/SFProDisplay-Heavy-1.ttf);
+}
+
+@font-face {
+  font-family: sfproregular;
+  src: url(../fonts/sfpro/SFProDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: sfproheavy;
+  src: url(../fonts/sfpro/SFProDisplay-Heavy-1.ttf);
+}
+
+@font-face {
+  font-family: sfproregular;
+  src: url(../fonts/sfpro/SFProDisplay-Regular.ttf);
 }
 
 .App {

@@ -1,4 +1,4 @@
-
+@import 'mixin';
 body{
     margin: 0;
     padding: 0;
@@ -7,4 +7,13 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+h1,h2,h3,h4,h5,h6{
+    @include sfproheavy;
+    font-weight: 800;
+}
+
+p,a{
+    @include sfproregular;
 }
