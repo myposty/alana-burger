@@ -1,7 +1,29 @@
 @import 'font-family';
+@import 'flex-box';
 @mixin sfproheavy {
     font-family: sfproheavy;
 }
 @mixin sfproregular {
     font-family: sfproregular;   
+}
+//bg color mixin
+@mixin bg($color) {
+    background-color: map-get($bg , $color );
+}
+
+//mixin de flex flex-box
+@mixin flex-box($flex,$item,$content) {
+    display:$flex;
+    align-items: $item;
+    justify-content: $content;
+}
+@mixin center () {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+//border radius
+@mixin radius($radius) {
+    border-radius:$radius;
 }

@@ -3,13 +3,10 @@ import logo from '../assets/img/mr-burger.png';
 function About() {
   return (
     <div className="App">
-      
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>¿Que es Alana Burger?</h2>
-        <p>
-          Alana es mi hija y no le mires ok!
-        </p>
+        <h2>¿Que es nombre Burger?</h2>
         <a
           className="App-link"
           href="/"

@@ -1,5 +1,21 @@
 @import 'mixin';
+@import 'color';
+*{
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    &::after{
+        transition: all 0.3s ease-in-out;
+    }
+    &::before{
+        transition: all 0.3s ease-in-out;
+    }
+    &:hover{
+        transition: all 0.3s ease-in-out;
+    }
+}
 body{
+
     margin: 0;
     padding: 0;
     width: 100%;
@@ -7,15 +23,27 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    @include bg(negro-profundo);
 }
 
 h1,h2,h3,h4,h5,h6{
     @include sfproheavy;
     font-weight: 800;
+    color: #f6f6f6;
 }
 
-p,a{
+a{
     @include sfproregular;
+    text-decoration: none;
+    color: #f6f6f6;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
 }
 
 img{
